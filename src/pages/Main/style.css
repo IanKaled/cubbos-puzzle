@@ -1,0 +1,65 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+}
+
+.puzzle-lateral {
+  width: 18%;
+  height: 100%;
+  background: linear-gradient(180deg, #000000 0%, rgba(15, 13, 15, 0.65) 100%);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-puzzle {
+  margin-top: 23px;
+  width: 114.24px;
+}
+
+button {
+  all: unset;
+
+  width: 160px;
+  height: 52px;
+  margin-bottom: 32px;
+  border-radius: 6px;
+
+  background-color: #F0C551;
+  color: #FFFFFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.area-jogo {
+  width: 82%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jogo {
+  width: 976px;
+  height: 503px;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-img {
+  width: 146px;
+  height: 49%;
+}
